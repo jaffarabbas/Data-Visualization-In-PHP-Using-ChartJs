@@ -81,6 +81,8 @@ while ($row = mysqli_fetch_assoc($result5)) {
     <script src="js/chart.js"></script>
     <script src="js/index.js"></script>
 </body>
+
+
 <script type="text/javascript">
     //covert php arry to javascript arrya
     var data = <?php echo json_encode($data); ?>;
